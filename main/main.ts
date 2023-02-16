@@ -1,8 +1,8 @@
-import Atom from "@/mod.ts";
+import Atom from "atom";
 async function main() {
-  await Atom.bootstrap({
-    routesPath: "example/routes",
-  });
+    await Atom.bootstrap({
+        routesPath: "/routes",
+    });
 }
 
 main();
