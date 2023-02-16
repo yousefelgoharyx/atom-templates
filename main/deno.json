@@ -3,6 +3,6 @@
         "dev": "deno run -A --watch ./main.ts"
     },
     "imports": {
-        "atom": "../../atom/mod.ts"
+        "atom": "https://deno.land/x/atom@0.0.32/mod.ts"
     }
 }
